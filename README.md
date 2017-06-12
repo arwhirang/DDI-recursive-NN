@@ -15,8 +15,8 @@ Requirements:
 &ensp;&ensp;nltk
 
 Data:  
-&ensp;Use the preprocessed test data in the Sample folder. For the whole DDI'13 corpus, visit : http://labda.inf.uc3m.es/ddicorpus  
-&ensp;We report the ids of the training set in the "ids" file.  
+&ensp;Use the preprocessed test data in the Demo folder. For the whole DDI'13 corpus, visit : http://labda.inf.uc3m.es/ddicorpus  
+&ensp;We report the ids of the training set in the "TrainingSetIDs" file.  
 
 
 
