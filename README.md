@@ -1,6 +1,6 @@
 # DDI-recursive-NN
 
-This is a code repository from the paper "Drug drug interaction extraction using recursive neural network", which is under review.
+This is a code repository from the paper "Drug drug interaction extraction from literature using a recursive neural network", which is under review.
 
 Note : We only upload the Recursive NN model, which is based on the tree-lstm implementation using the Tensorflow Fold https://github.com/tensorflow/fold/blob/master/tensorflow_fold/g3doc/sentiment.ipynb
 
