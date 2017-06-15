@@ -16,9 +16,11 @@ Requirements:
 
 Data:  
 &ensp;Use the preprocessed test data in the Demo folder. For the whole DDI'13 corpus, visit : http://labda.inf.uc3m.es/ddicorpus  
-&ensp;The relative distance value in the original position embedding has a range from -21 to 21. When the absolute distance value is greater than 5, same vector is given in units of 5. 
-&ensp;In the preprocessed test data, the position embedding range is from 0 to 18. First, we merged the absolute distace values greater than 5, and the range is changed into -9 to 9. Secondly, we added 9 to the each distance value, because we do not want unnecessary negative values at the tree nodes.
 &ensp;We report the ids of the training set in the "TrainingSetIDs" file.  
+
+&ensp;The relative distance value in the original position embedding has a range from -21 to 21. When the absolute distance value is greater than 5, same vector is given in units of 5. 
+&ensp;In the preprocessed test data, the position embedding range is from 0 to 18. First, we merged the absolute distace values greater than 5, and the range is changed into -9 to 9. Secondly, we added 9 to the each distance value, because we do not want unnecessary negative values in the tree nodes.
+
 
 Data Format:  
 &ensp;After preprocessing step, we separate each pairs into lines. Each line contains pairID, sentence, Interaction, DDI type(if negative, none), the first target drug id, the first target drug name, the first target drug type, the second target drug id, the second target drug name, the second target drug type, parsed tree of a sentence, and words in a sentence separated with comma. Each element is separated with "\t". For example, the 14th instance in training set is presented below.
