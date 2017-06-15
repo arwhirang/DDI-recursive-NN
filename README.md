@@ -16,7 +16,8 @@ Requirements:
 
 Data:  
 &ensp;Use the preprocessed test data in the Demo folder. For the whole DDI'13 corpus, visit : http://labda.inf.uc3m.es/ddicorpus  
-&ensp;In the preprocessed test data, the position embedding range is 0 - 18, because we do not want unnecessary negative values at the tree nodes.
+&ensp;The relative distance value in the original position embedding has a range from -21 to 21. When the absolute distance value is greater than 5, same vector is given in units of 5. 
+&ensp;In the preprocessed test data, the position embedding range is from 0 to 18. First, we merged the absolute distace values greater than 5, and the range is changed into -9 to 9. Secondly, we added 9 to the each distance value, because we do not want unnecessary negative values at the tree nodes.
 &ensp;We report the ids of the training set in the "TrainingSetIDs" file.  
 
 Data Format:  
