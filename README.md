@@ -16,6 +16,7 @@ Requirements:
 
 Data:  
 &ensp;Use the preprocessed test data in the Demo folder. For the whole DDI'13 corpus, visit : http://labda.inf.uc3m.es/ddicorpus  
+&ensp;In the preprocessed test data, the position embedding range is 0 - 18, because we do not want unnecessary negative values at the tree nodes.
 &ensp;We report the ids of the training set in the "TrainingSetIDs" file.  
 
 Data Format:  
