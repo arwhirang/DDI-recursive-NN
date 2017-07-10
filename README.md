@@ -4,7 +4,7 @@ This is a code repository from the paper "Drug drug interaction extraction from 
 
 Note : We only upload the Recursive NN model, which is based on the tree-lstm implementation using the Tensorflow Fold https://github.com/tensorflow/fold/blob/master/tensorflow_fold/g3doc/sentiment.ipynb
 
-Requirements:  
+##Requirements:  
 &ensp;Tensorflow ver 1.1&ensp;&ensp;(we do not test the other versions)  
 &ensp;Tensorflow Fold https://github.com/tensorflow/fold  
 &ensp;python 3.4 or later  
@@ -14,12 +14,12 @@ Requirements:
 &ensp;&ensp;numpy  
 &ensp;&ensp;nltk
 
-Data:  
+##Data:  
 &ensp;Use the preprocessed test and train data in the Demo/data folder. This is not the original data. For the whole DDI'13 corpus, visit : http://labda.inf.uc3m.es/ddicorpus  
 
 [//]: # (&ensp;We report the ids of the training set in the "TrainingSetIDs" file.)
 
-Training and Testing:  
+##Training and Testing:  
 &ensp;First, run the "saveWEUsedinDataOnly" to reduce the size of the word embedding.  
 &ensp;Second, run the "DDI_detection".  
 
@@ -27,7 +27,7 @@ Training and Testing:
 &ensp;The relative distance value in the original position embedding has a range from -21 to 21. When the absolute distance value is greater than 5, same vector is given in units of 5. 
 &ensp;In the preprocessed test data, the position embedding range is from 0 to 18. First, we merge the absolute distance values that share the same vectors, then the range is changed into -9 to 9. Secondly, we added 9 to the each distance value, because we do not want unnecessary negative values in the tree nodes.
 
-Data Format:  
+##Data Format:  
 &ensp;After preprocessing step, we separate each pairs into lines. Each line contains
 + pairID,
 + sentence,
