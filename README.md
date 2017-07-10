@@ -2,7 +2,7 @@
 
 This is a code repository from the paper "Drug drug interaction extraction from the literature using a recursive neural network", which is under review.
 
-Note : We only upload the Recursive NN model, which is based on the tree-lstm implementation using the Tensorflow Fold https://github.com/tensorflow/fold/blob/master/tensorflow_fold/g3doc/sentiment.ipynb
+We upload the Recursive NN model, which is based on the tree-lstm implementation using the Tensorflow Fold https://github.com/tensorflow/fold/blob/master/tensorflow_fold/g3doc/sentiment.ipynb
 
 ## Requirements:  
 &ensp;Tensorflow ver 1.1&ensp;&ensp;(we do not test the other versions)  
@@ -12,7 +12,7 @@ Note : We only upload the Recursive NN model, which is based on the tree-lstm im
 &ensp;&ensp;gensim https://radimrehurek.com/gensim/install.html  
 &ensp;&ensp;sklearn http://scikit-learn.org/stable/install.html  
 &ensp;&ensp;numpy  
-&ensp;&ensp;nltk
+&ensp;&ensp;nltk  
 
 ## Data:  
 &ensp;Use the preprocessed test and train data in the Demo/data folder. This is not the original data.  
@@ -25,7 +25,7 @@ Note : We only upload the Recursive NN model, which is based on the tree-lstm im
 &ensp;First, run the "saveWEUsedinDataOnly" to reduce the size of the word embedding.  
 &ensp;Second, run the "DDI_detection".  
 
-
+&ensp;Potision Embedding implementation
 &ensp;The relative distance value in the original position embedding has a range from -21 to 21. When the absolute distance value is greater than 5, same vector is given in units of 5. 
 &ensp;In the preprocessed test data, the position embedding range is from 0 to 18. First, we merge the absolute distance values that share the same vectors, then the range is changed into -9 to 9. Secondly, we added 9 to the each distance value, because we do not want unnecessary negative values in the tree nodes.
 
