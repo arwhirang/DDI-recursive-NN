@@ -29,7 +29,7 @@ We upload the Recursive NN model, which is based on the tree-lstm implementation
 &ensp;The relative distance value in the original position embedding has a range from -21 to 21. When the absolute distance value is greater than 5, same vector is given in units of 5. 
 &ensp;In the preprocessed test data, the position embedding range is from 0 to 18. First, we merge the absolute distance values that share the same vectors, then the range is changed into -9 to 9. Secondly, we added 9 to the each distance value, because we do not want unnecessary negative values in the tree nodes.  
   
-&ensp;We do not release code for other tasks because other tasks like ensemble require human hand. However, the other tasks are easy to implement.
+&ensp;We do not release code for other tasks because other tasks (e.g. "two-stage classification") require human hand. However, the other tasks are easy to implement.
 
 ## Data Format:  
 &ensp;After preprocessing step, we separate each pairs into lines. Each line contains
