@@ -23,7 +23,8 @@ We upload the Recursive NN model, which is based on the tree-lstm implementation
 
 ## Training and Testing:  
 &ensp;First, run the "saveWEUsedinDataOnly" code to reduce the size of the word embedding.  
-&ensp;Second, run the "DDI_detection" code for the DDI detection single model classifier.  
+&ensp;Second, run the "DDI_detection" code for the DDI detection single model classifier.
+&ensp;Note : you may want to change the directory path for reserving logits.
 
 &ensp;Potision Embedding implementation
 &ensp;The relative distance value in the original position embedding has a range from -21 to 21. When the absolute distance value is greater than 5, same vector is given in units of 5. 
