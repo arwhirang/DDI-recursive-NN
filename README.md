@@ -5,7 +5,7 @@ This is a code repository from the paper "Drug drug interaction extraction from 
 We upload the Recursive NN model, which is based on the tree-lstm implementation using the Tensorflow Fold https://github.com/tensorflow/fold/blob/master/tensorflow_fold/g3doc/sentiment.ipynb
 
 ## Requirements:  
-&ensp;Tensorflow ver 1.1&ensp;&ensp;(we do not test the other versions)  
+&ensp;Tensorflow ver 1.1&ensp;&ensp;(we do not test the other versions, we found that tensorflow fold is known to be working best at tf version 1.0.0. You may change to the version 1.0.0)  
 &ensp;Tensorflow Fold https://github.com/tensorflow/fold  
 &ensp;python 3.4 or later  
 &ensp;Usual libraries:  
