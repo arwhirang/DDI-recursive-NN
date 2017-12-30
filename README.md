@@ -16,8 +16,8 @@ We upload the Recursive NN model, which is based on the tree-lstm implementation
 
 ## Data:  
 &ensp;Use the preprocessed test and train data in the Demo/data folder. This is not the original data.  
-&ensp;For the whole DDI'13 corpus, visit : http://labda.inf.uc3m.es/ddicorpus
-&ensp;&ensp;In case the above site is not working, one can use the APIforDDICorpus2013.zip file.
+&ensp;For the whole DDI'13 corpus, visit : http://labda.inf.uc3m.es/ddicorpus  
+&ensp;&ensp;In case the above site is not working, one can use the APIforDDICorpus2013.zip file.  
 &ensp;Word embedding is not included. visit : http://evexdb.org/pmresources/vec-space-models/
 
 [//]: # (&ensp;We report the ids of the training set in the "TrainingSetIDs" file.)
