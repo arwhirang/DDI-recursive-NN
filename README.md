@@ -19,8 +19,7 @@ We upload the Recursive NN model, which is based on the tree-lstm implementation
 &ensp;Word embedding is not included. visit : http://evexdb.org/pmresources/vec-space-models/
 
 &ensp;For the original DDI'13 corpus, visit : http://labda.inf.uc3m.es/ddicorpus  
-&ensp;&ensp;In case the above site is not working, one can use the APIforDDICorpus2013.zip file.  
-&ensp;&ensp;The APIforDDICorpus2013.zip file is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
+&ensp;&ensp;We do not own the original DDI'13 corpus, however, the data in the Demo/data folder is enough to run our code.
 
 [//]: # (&ensp;We report the ids of the training set in the "TrainingSetIDs" file.)
 
